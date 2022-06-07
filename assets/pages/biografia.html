@@ -1,99 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sucesos por los que transcurrió el grupo Pink Floyd para ser considerados uno de los grupos de rock más influyentes del mundo."
+    />
+    <meta
+      name="keywords"
+      content="pink floyd, grupo musical de los años 60, rock progresivo, grupo musical pink floyd, the wall, the dark side of the moon, mejores grupos de rock"
+    />
     <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@300;400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@300;400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <!-- BOOSTRAP LINK -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <!-- BS ICONS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">  
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
     <!-- LINK CSS -->
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>Biografía - Pink Floyd</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Biografía - Pink Floyd Fansite</title>
+  </head>
+  <body>
     <header class="pf-header">
-        <h2 class="pf-header__logo">Pink <span class="pf-header__logo--pink">Floyd</span></h2>
-        <nav class="pf-nav">
-            <ul class="pf-nav__desk">
-                <li><a href="../../index.html" class="pf-nav__item">Inicio</a></li>
-                <li><a href="./integrantes.html" class="pf-nav__item">Integrantes</a></li>
-                <li><a href="./discografia.html" class="pf-nav__item">Discografía</a></li>
-                <li><a href="#" class="pf-nav__item pf-nav__item--active">Biografía</a></li>
-                <li><a href="./galería.html" class="pf-nav__item">Galería</a></li>
-            </ul>
-            <div class="pf-nav__mobile">
-                <button class="btn nav-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-list"></i></button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                    <div class="offcanvas-header mobile-nav-header">
-                      <h3 class="offcanvas-title" id="offcanvasRightLabel">Pink <span>Floyd</span></h3>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body mobile-nav-body">
-                        <ul>
-                            <li><a href="../../index.html" ><i class="bi bi-caret-right-fill mobile-nav-body__icon"></i>Inicio</a></li>
-                            <li><a href="./integrantes.html" ><i class="bi bi-caret-right-fill mobile-nav-body__icon"></i>Integrantes</a></li>
-                            <li><a href="./discografia.html" ><i class="bi bi-caret-right-fill mobile-nav-body__icon"></i>Discografía</a></li>
-                            <li><a href="#" ><i class="bi bi-caret-right-fill mobile-nav-body__icon"></i>Biografía</a></li>
-                            <li><a href="./galería.html" ><i class="bi bi-caret-right-fill mobile-nav-body__icon"></i>Galería</a></li>
-                        </ul>
-                    </div>
-                </div>
+      <h2 class="pf-header__logo">
+        Pink <span class="pf-header__logo--pink">Floyd</span>
+      </h2>
+      <nav class="pf-nav">
+        <ul class="pf-nav__desk">
+          <li><a href="../../index.html" class="pf-nav__item">Inicio</a></li>
+          <li>
+            <a href="./integrantes.html" class="pf-nav__item">Integrantes</a>
+          </li>
+          <li>
+            <a href="./discografia.html" class="pf-nav__item">Discografía</a>
+          </li>
+          <li>
+            <a href="#" class="pf-nav__item pf-nav__item--active">Biografía</a>
+          </li>
+          <li><a href="./galería.html" class="pf-nav__item">Galería</a></li>
+        </ul>
+        <div class="pf-nav__mobile">
+          <button
+            class="btn nav-button"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header mobile-nav-header">
+              <h3 class="offcanvas-title" id="offcanvasRightLabel">
+                Pink <span>Floyd</span>
+              </h3>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
-        </nav>
+            <div class="offcanvas-body mobile-nav-body">
+              <ul>
+                <li>
+                  <a href="../../index.html"
+                    ><i class="bi bi-caret-right-fill mobile-nav-body__icon"></i
+                    >Inicio</a
+                  >
+                </li>
+                <li>
+                  <a href="./integrantes.html"
+                    ><i class="bi bi-caret-right-fill mobile-nav-body__icon"></i
+                    >Integrantes</a
+                  >
+                </li>
+                <li>
+                  <a href="./discografia.html"
+                    ><i class="bi bi-caret-right-fill mobile-nav-body__icon"></i
+                    >Discografía</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="bi bi-caret-right-fill mobile-nav-body__icon"></i
+                    >Biografía</a
+                  >
+                </li>
+                <li>
+                  <a href="./galería.html"
+                    ><i class="bi bi-caret-right-fill mobile-nav-body__icon"></i
+                    >Galería</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main class="pf-main">
-        <div class="bio-main">
-            <div class="bio-main__header">
-                <img src="../img/pinkFloydMain.jpg" alt="grupo pink floyd">
-                <h1>Biografía</h1>
-            </div>
-            <div class="bio-main__post">
-                <p>El grupo Pink Floyd nació en Cambridge, como la evolución de un pequeño grupo de aficionados a la música, 'Arquitectural Abdams'(anteriormente 'Sigma 6'), que debían su nombre al hecho de que la mayoría de sus miembros estudiaba arquitectura en la Universidad Politécnica de Londres.</p>
-                <p>Los componentes de Pink Floyd, por aquel entonces, eran: Nicolas Mason, Roger Waters, Richard Wright, Clive Metcalf, Juliette Gale y Keith Noble. Cuando Clive y Juliette abandonaron el grupo, se les unió Roger Keith 'Syd' Barret. Fue entonces cuando decidieron cambiar el nombre del grupo para iniciar una nueva etapa, bautizándolo como Pink Floyd, en honor a dos ídolos del blues: Pink Anderson y Floyd Council.</p>
-                <p>Pink Floyd queda conformado definitivamente con Nick Mason en la batería, Roger Waters en el bajo y como cantante, Richard Wright en los teclados y Syd Barret con la guitarra.</p>
-                <p>Su primera intención era hacer una especie de blues, aunque con variaciones instrumentales, y combinando todo ello con un gran juego de luces que revolucionaran la estética de los escenarios.</p>
-                <p>En sus inicios participan en varios espectáculos donde dieron a conocer su revolucionaria forma de entender la música (un nuevo movimiento llamado Psicodelia).</p>
-                <p>En 1967 Pink Floyd lanza su primer álbum, 'The Piper at the Gates of Dawin' y varios sencillos, a la vez que realizan una gran gira por Inglaterra.</p>
-                <p>Los problemas de Syd con las drogas crean problemas en el grupo, principalmente en las actuaciones en directo, lo que obliga a su sustitución por David Gilmour, su maestro de guitarra, quien además colaboraba con las voces.</p>
-                <p>En 1968 Pink Floyd publica su segundo disco completo, 'A Saucerfull Of Secrets'. Ese mismo año graban 'Ummagumma', un disco doble con sus principales temas en directo y algún tema inédito. También inician la grabación del disco de su primera película 'More'.</p>
-                <p>'Ummagumma' consta de una parte en vivo y otra parte grabada en estudio, en la que los distintos miembros del grupo hacen interpretaciones de lo que en ese momento se les ocurre. Es la improvisación en estado puro y con una gran calidad.</p>
-                <p>En 1970 publican 'Atom Heart Mother', una sinfonía con la que la banda británica alcanza los primeros puestos en las listas europeas.</p>
-                <p>Al año siguiente se publica uno de los mejores discos de Pink Floyd, 'Meddle', un resumen del estilo musical del grupo de rock. También publican una recopilación de sus mejores temas, bajo el título de 'Relics'.</p>
-                <p>En 1972 editan la banda sonora de su segunda película 'La Vallee'. El título del disco: 'Obscured By The Clouds'.</p>
-                <p>En 1973 terminan la grabación de un nuevo álbum. El resultado: 'The Dark Side Of The Moon', seguramente el mejor disco de Pink Floyd, con más de treinta millones de copias vendidas, batiendo todos los records de permanencia en las listas de éxitos, con más de diez años de éxito continuado. El disco estaba lleno de efectos de sonido y canciones que abordaban la temática del hombre presionado por la sociedad, que le lleva al borde de la locura. Fue número uno en Estados Unidos y número dos en Inglaterra y su tema más representativo, 'Money'. Realizaron una gira apoteósica con un ingente despliegue de luces y sonidos como no se recuerdan en la historia de los conciertos en directo.</p>
-                <p>En 1975 publican un nuevo éxito: 'Wish You Were Here', un homenaje a su antiguo compañero Syd Barret, con el tema estrella 'Shine On Your Crazy Diamond', compuesto por Roger Waters.</p>
-                <p>Un año después publican 'Animals', con el que Roger Waters comienza a ejercer como líder del grupo, imprimiendo su carácter en muchos de los temas.</p>
-                <p>Después de varios discos en solitario de sus miembros, y cuando parecía que el efecto de los Pink Floyd se desvanecería con la entrada de la nueva década, publican a finales de 1979 un nuevo doble: 'The Wall'. El disco trata la historia del fracaso de una estrella del rock. El disco fue número uno en Estados Unidos durante quince semanas.</p>
-                <p>'The Wall' fue uno de los últimos discos de los Pink Floyd. Las diferencias entre los miembros del grupo y el papel predominante que comenzó Roger Waters terminó con la separación, aunque todavía tuvieron tiempo de publicar en 1983 'The Final Cut', el último disco con Roger Waters y con la ausencia de Richard Wright.</p>
-                <p>Con la formación compuesta por Gilmour, Mason y Wright han editado 'A Momentary Lapse of Reason' (1987), 'Delicate Sound of Thunder' (1988), 'The Division Bell' (1993) y 'Pulse' (1994)</p>
-                <p>Roger Waters, por su parte, ha publicado, entre otros, 'The Pros and Cons of Hitch Hinking' (1984), 'Radio KAOS' (1987) y 'Amused to Dead' (1992).</p>
-            </div>
+      <div class="bio-main">
+        <div class="bio-main__header">
+          <img src="../img/pinkFloydMain.jpg" alt="grupo pink floyd" />
+          <h1>Biografía</h1>
         </div>
+        <div class="bio-main__post">
+          <p>
+            El grupo Pink Floyd nació en Cambridge, como la evolución de un
+            pequeño grupo de aficionados a la música, 'Arquitectural
+            Abdams'(anteriormente 'Sigma 6'), que debían su nombre al hecho de
+            que la mayoría de sus miembros estudiaba arquitectura en la
+            Universidad Politécnica de Londres.
+          </p>
+          <p>
+            Los componentes de Pink Floyd, por aquel entonces, eran: Nicolas
+            Mason, Roger Waters, Richard Wright, Clive Metcalf, Juliette Gale y
+            Keith Noble. Cuando Clive y Juliette abandonaron el grupo, se les
+            unió Roger Keith 'Syd' Barret. Fue entonces cuando decidieron
+            cambiar el nombre del grupo para iniciar una nueva etapa,
+            bautizándolo como Pink Floyd, en honor a dos ídolos del blues: Pink
+            Anderson y Floyd Council.
+          </p>
+          <p>
+            Pink Floyd queda conformado definitivamente con Nick Mason en la
+            batería, Roger Waters en el bajo y como cantante, Richard Wright en
+            los teclados y Syd Barret con la guitarra.
+          </p>
+          <p>
+            Su primera intención era hacer una especie de blues, aunque con
+            variaciones instrumentales, y combinando todo ello con un gran juego
+            de luces que revolucionaran la estética de los escenarios.
+          </p>
+          <p>
+            En sus inicios participan en varios espectáculos donde dieron a
+            conocer su revolucionaria forma de entender la música (un nuevo
+            movimiento llamado Psicodelia).
+          </p>
+          <p>
+            En 1967 Pink Floyd lanza su primer álbum, 'The Piper at the Gates of
+            Dawin' y varios sencillos, a la vez que realizan una gran gira por
+            Inglaterra.
+          </p>
+          <p>
+            Los problemas de Syd con las drogas crean problemas en el grupo,
+            principalmente en las actuaciones en directo, lo que obliga a su
+            sustitución por David Gilmour, su maestro de guitarra, quien además
+            colaboraba con las voces.
+          </p>
+          <p>
+            En 1968 Pink Floyd publica su segundo disco completo, 'A Saucerfull
+            Of Secrets'. Ese mismo año graban 'Ummagumma', un disco doble con
+            sus principales temas en directo y algún tema inédito. También
+            inician la grabación del disco de su primera película 'More'.
+          </p>
+          <p>
+            'Ummagumma' consta de una parte en vivo y otra parte grabada en
+            estudio, en la que los distintos miembros del grupo hacen
+            interpretaciones de lo que en ese momento se les ocurre. Es la
+            improvisación en estado puro y con una gran calidad.
+          </p>
+          <p>
+            En 1970 publican 'Atom Heart Mother', una sinfonía con la que la
+            banda británica alcanza los primeros puestos en las listas europeas.
+          </p>
+          <p>
+            Al año siguiente se publica uno de los mejores discos de Pink Floyd,
+            'Meddle', un resumen del estilo musical del grupo de rock. También
+            publican una recopilación de sus mejores temas, bajo el título de
+            'Relics'.
+          </p>
+          <p>
+            En 1972 editan la banda sonora de su segunda película 'La Vallee'.
+            El título del disco: 'Obscured By The Clouds'.
+          </p>
+          <p>
+            En 1973 terminan la grabación de un nuevo álbum. El resultado: 'The
+            Dark Side Of The Moon', seguramente el mejor disco de Pink Floyd,
+            con más de treinta millones de copias vendidas, batiendo todos los
+            records de permanencia en las listas de éxitos, con más de diez años
+            de éxito continuado. El disco estaba lleno de efectos de sonido y
+            canciones que abordaban la temática del hombre presionado por la
+            sociedad, que le lleva al borde de la locura. Fue número uno en
+            Estados Unidos y número dos en Inglaterra y su tema más
+            representativo, 'Money'. Realizaron una gira apoteósica con un
+            ingente despliegue de luces y sonidos como no se recuerdan en la
+            historia de los conciertos en directo.
+          </p>
+          <p>
+            En 1975 publican un nuevo éxito: 'Wish You Were Here', un homenaje a
+            su antiguo compañero Syd Barret, con el tema estrella 'Shine On Your
+            Crazy Diamond', compuesto por Roger Waters.
+          </p>
+          <p>
+            Un año después publican 'Animals', con el que Roger Waters comienza
+            a ejercer como líder del grupo, imprimiendo su carácter en muchos de
+            los temas.
+          </p>
+          <p>
+            Después de varios discos en solitario de sus miembros, y cuando
+            parecía que el efecto de los Pink Floyd se desvanecería con la
+            entrada de la nueva década, publican a finales de 1979 un nuevo
+            doble: 'The Wall'. El disco trata la historia del fracaso de una
+            estrella del rock. El disco fue número uno en Estados Unidos durante
+            quince semanas.
+          </p>
+          <p>
+            'The Wall' fue uno de los últimos discos de los Pink Floyd. Las
+            diferencias entre los miembros del grupo y el papel predominante que
+            comenzó Roger Waters terminó con la separación, aunque todavía
+            tuvieron tiempo de publicar en 1983 'The Final Cut', el último disco
+            con Roger Waters y con la ausencia de Richard Wright.
+          </p>
+          <p>
+            Con la formación compuesta por Gilmour, Mason y Wright han editado
+            'A Momentary Lapse of Reason' (1987), 'Delicate Sound of Thunder'
+            (1988), 'The Division Bell' (1993) y 'Pulse' (1994)
+          </p>
+          <p>
+            Roger Waters, por su parte, ha publicado, entre otros, 'The Pros and
+            Cons of Hitch Hinking' (1984), 'Radio KAOS' (1987) y 'Amused to
+            Dead' (1992).
+          </p>
+        </div>
+      </div>
     </main>
     <footer class="pf-footer">
-        <div class="pf-footer__text">
-            <p>Creado por: <span>Esteban Gomez</span></p>
-            <p>Todos los derechos reservados.</p>
+      <div class="pf-footer__text">
+        <p>Creado por: <span>Esteban Gomez</span></p>
+        <p>Todos los derechos reservados.</p>
+      </div>
+      <div class="pf-footer__social">
+        <div class="pf-footer__socialm">
+          <a href="#" class="bi bi-instagram"></a>
+          <a href="#" class="bi bi-facebook"></a>
+          <a href="#" class="bi bi-twitter"></a>
         </div>
-        <div class="pf-footer__social">
-            <div class="pf-footer__socialm">
-                <a href="#" class="bi bi-instagram"></a>
-                <a href="#" class="bi bi-facebook"></a>
-                <a href="#" class="bi bi-twitter"></a>
-            </div>
-            <div>
-                <span class="pf-footer__text">¡Contáctame!</span>
-            </div>
+        <div>
+          <span class="pf-footer__text">¡Contáctame!</span>
         </div>
-            
+      </div>
     </footer>
     <!-- JS BOOSTRAP LINK -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

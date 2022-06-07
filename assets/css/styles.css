@@ -165,6 +165,12 @@ body {
   font-size: 2rem;
   padding: 0.5rem;
 }
+.pf-footer__socialm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 .int-main {
   display: flex;

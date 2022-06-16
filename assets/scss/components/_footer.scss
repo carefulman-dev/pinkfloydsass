@@ -1,0 +1,28 @@
+@import "./mixins";
+
+.pf-footer{
+    @include flexbox(flex, column, space-evenly, center);
+    background-color: $primary-color;
+    grid-area: footer;
+    &__text{
+        @include flexbox(flex, column, center, initial);
+        width: 80%;
+        color: $text-color;
+        text-align: center;
+        p{
+            margin: 0;
+        }
+    }
+    &__social{
+        width: 20%;
+        @include flexbox(flex, column, initial, center);
+        a{
+            color: $secondary-color;
+            font-size: 2rem;
+            padding: 0.5rem;
+        }
+    }
+    &__socialm{
+        @include flexbox(flex, row, center, center)
+    }
+}

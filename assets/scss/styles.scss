@@ -1,0 +1,46 @@
+// VARIABLES
+@import "abstracts/variables";
+
+// EXTENDS
+@import "components/extends";
+
+// RESET CSS
+@import "components/reset";
+
+// LAYOUT GRID
+@import "components/indexLayout";
+
+// HEADER
+@import "components/header";
+
+// MOBILE NAV
+@import "components/navMobile";
+
+// MAIN (INDEX)
+@import "components/indexMain";
+
+@import "components/footer";
+
+// MAIN (INTEGRANTES)
+@import "components/intMain";
+
+// MAIN (DISCOGRAFÍA)
+@import "components/discoMain";
+
+// MAIN (BIOGRAFÍA)
+@import "components/bioMain";
+
+// MAIN (GALERÍA)
+@import "components/galeriaMain";
+
+//BUTTONS
+@import "components/buttons/navButton";
+
+//CARDS
+@import "components/cards/card1";
+@import "components/cards/card2";
+
+
+// MEDIA QUERIES 
+@import "components/mediaquery/mediaTab";
+@import "components/mediaquery/mediaDesk";

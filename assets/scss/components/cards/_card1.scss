@@ -1,0 +1,17 @@
+.card1{
+    @extend .card;
+    &__img{
+        height: 80%;
+        width: 100%;
+        border-radius: 0.5rem 0.5rem 0 0;
+        object-fit: cover;
+    }
+    &__text{
+        text-align: center;
+        margin: 1rem;
+        h4{
+            @extend .cardsubtitulos;
+            margin: 0;
+        }
+    }
+}

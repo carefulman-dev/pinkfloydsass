@@ -1,0 +1,29 @@
+@import "./mixins";
+
+.bio-main{
+    height: 100%;
+    width: 100%;
+    @include flexbox(flex, column, initial, center);
+    &__header{
+        width: 80%;
+        height: 30%;
+        img{
+            width: 100%;
+        }
+        h1{
+            @extend .titulos;
+            margin: 1rem 0 0 0;
+        }
+    }
+    &__post{
+        width: 90%;
+        background-color: $primary-color;
+        margin-bottom: 0.5rem;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        p{
+            @extend .texto;
+            width: 100%;
+        }
+    }
+}

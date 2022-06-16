@@ -1,0 +1,12 @@
+.int-main{
+    @include flexbox(flex, column, initial, center);
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    &__title{
+        h1{
+            @extend .titulos;
+        }
+    }
+}

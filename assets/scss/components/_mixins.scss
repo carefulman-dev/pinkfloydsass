@@ -1,0 +1,14 @@
+@mixin background-image ($pos, $rep, $size, $attach){
+    background-position: $pos;
+    background-repeat: $rep;
+    background-size: $size;
+    background-attachment: $attach;
+}
+
+
+@mixin flexbox($disp, $dir, $jcont, $aitems) {
+    display: $disp;
+    flex-direction: $dir;
+    justify-content: $jcont;
+    align-items: $aitems;
+}

@@ -1,0 +1,101 @@
+@import "../mixins";
+
+@media (min-width:768px){
+    // LAYOUT GRID
+    body{
+        grid-template-rows: 10rem 1fr 15rem;
+        background-image: url(../img/background.png);
+    }
+
+    // HEADER Y NAV
+    .pf-header{
+        &__logo{
+            font-size: 5rem;
+        }
+    }
+    
+    .nav-button{
+        font-size: 5rem;
+    }
+    
+    // MAIN INDEX
+    .index-main{
+        &__title{
+            font-size: 4rem;
+            text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        }
+        &__subtitle{
+            font-size: 3rem;
+        }
+        &__a{
+            font-size: 2.5rem;
+        }
+    }
+
+    // MAIN INTEGRANTES (CARDS)
+    .card2{
+        height: 30rem;
+        width: 40rem;
+        background-color: $card-color;
+        @include flexbox(flex, row, initial, initial);
+        &__img{
+            height: 100%;
+            width: 60%;
+        }
+        &__text{
+            flex: 1;
+            @include flexbox(flex, column, initial, initial);
+            h4{
+                color: $secondary-color;
+            }
+            p{
+                display: block;
+                width: 100%;
+                color: $text-color;
+                font-size: 0.9rem;
+                text-align: center;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+
+    // MAIN DISCOGRAFÍA (CARDS)
+    .card1{
+        height: 40rem;
+        width: 35rem;
+        &__text{
+            h4{
+                font-size: 3rem;
+            }
+        }
+    }
+
+    // MAIN BIOGRAFÍA
+    .bio-main{
+        &__header{
+            margin-bottom: 1rem;
+            h1{
+                font-size: 3rem;
+            }
+
+        }
+        &__post{
+            p{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+
+    // FOOTER
+    .pf-footer{
+        &__text{
+            font-size: 2rem;
+        }
+        &__social{
+            a{
+                font-size: 4rem ;
+            }
+        }
+    }
+}

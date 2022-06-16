@@ -1,0 +1,18 @@
+.card2{
+    @extend .card;
+    &__img{
+        height: 90%;
+        width: 100%;
+        object-fit: cover;
+    }
+    &__text{
+        h4{
+            @extend .cardsubtitulos;
+            margin: 0;
+            text-align: center;
+        }
+        p{
+            display: none;
+        }
+    }
+}

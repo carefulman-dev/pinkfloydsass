@@ -1,0 +1,18 @@
+#galeria-main{
+    h1{
+        @extend .titulos;
+        text-align: center;
+    }
+    .col-lg-4{
+        margin: 0;
+        padding: 1.5rem;
+    }
+
+    img{
+        height: 16rem;
+        width: 100%;
+        &:hover{
+            border: 0.5rem solid $primary-color;
+        }
+    }
+}

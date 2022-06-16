@@ -1,0 +1,31 @@
+@import "./mixins";
+
+.mobile-nav-header{
+    background-color: $primary-color;
+    h3{
+        font-size: 3rem;
+            font-family: $logo-font;
+            color: $text-color;
+            margin: 0;
+    }
+}
+
+.mobile-nav-body{
+    background-color: $primary-color;
+    ul{
+        @include flexbox(flex, column, space-around, initial);
+        height: 60%;
+        list-style-type: none;
+    }
+    li{
+        a{
+            color: $text-color;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+        }
+        .mobile-nav-body__icon{
+            color: $secondary-color;
+        }
+    }
+}

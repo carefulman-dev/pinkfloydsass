@@ -274,6 +274,7 @@ body {
 @media (min-width: 768px) {
   body {
     grid-template-rows: 10rem 1fr 15rem;
+    background-image: url(../img/background.png);
   }
 
   .pf-header__logo {
